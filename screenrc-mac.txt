@@ -1,0 +1,15 @@
+# disable welcome message
+startup_message off
+
+# don't block command output if the terminal stops responding
+nonblock on
+
+# allow editors to restore display on exit
+altscreen on
+
+# screen title
+shelltitle "$ |bash "
+
+# statusbar
+hardstatus alwayslastline
+hardstatus string "%{= kW}%{G}[ %{r}%H %{G}] [ %{Y}%-w%=%{b}%n %t%=%{Y}%+w %{G}] [ %{y}Load: %l %{G}] [ %{w}%D %d %M %C %a %{G}]"
