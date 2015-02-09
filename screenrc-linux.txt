@@ -12,4 +12,4 @@ shelltitle "$ |bash "
 
 # statusbar
 hardstatus alwayslastline
-hardstatus string "%{= k}%{r}[ %{G}%H %{r}] [ %{y}%-w%=%{B}%n %t%=%{y}%+w %{r}] [ %{Y}Load: %l %{r}] [ %{W}%D %d %M %C %a %{r}]"
+hardstatus string "%{= k}%{r}[ %{G}%H %{r}] [ %{y}%-w%=%{B}%n %t%=%{y}%+w%{r}] [ %{Y}Load: %l %{r}] [ %{W}%D %d %M %C %a %{r}]"
