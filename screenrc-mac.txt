@@ -1,6 +1,9 @@
 # disable welcome message
 startup_message off
 
+# login shell
+shell -$SHEL
+
 # don't block command output if the terminal stops responding
 nonblock on
 
