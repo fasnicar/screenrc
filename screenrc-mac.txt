@@ -21,4 +21,4 @@ shelltitle "$ |bash "
 
 # statusbar
 hardstatus alwayslastline
-hardstatus string "%{= kW}%{G} %{r}%H %{G}| %{Y}%-w%=%{b}%n %t%=%{Y}%+w %{G}| %{y}Load: %l %{G}| %{w}%D %d %M %C %a %{G}"
+hardstatus string "%{= kW}%{G}%H %{R}| %{y}%-w%=%{B}%n %t%=%{y}%+w %{R}| %{Y}Load: %l %{R}| %{W}%D %d %M %C %a"
