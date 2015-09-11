@@ -2,7 +2,7 @@
 startup_message off
 
 # login shell
-shell -$SHEL
+shell -$SHELL
 
 # don't block command output if the terminal stops responding
 nonblock on
