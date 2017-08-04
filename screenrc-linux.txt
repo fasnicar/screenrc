@@ -24,4 +24,4 @@ termcapinfo xterm* ti@:te@
 
 # statusbar
 hardstatus alwayslastline
-hardstatus string "%{= k}%{G}%H %{R}| %{y}%-w%=%{B}%n %t%=%{y}%+w%{R}| %{Y}Load: %l %{R}| %{W}%D %d %M %C %a"
+hardstatus string "%{= k}%{y}%D %d %M %C %a %{R}| %{y}%-w%=%{G}%n %t%=%{y}%+w%{R}| %{y}Load: %l"
